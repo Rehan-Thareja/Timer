@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.clock {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1000px;
+   height:1000px
+   font-size: 300px;
+   font-weight: bold;
+   writing-mode:vertical-rl;
+}
+body{
+background-color:black;
+}
+span{
+position: absolute;
+top:20%;
+color:white;
+font-size:150px;
+text-shadow:10px 10px 10px gray;
+font-family:'Roboto',sans-serif;
+font-size: 300px;
+font-weight: bold
+writing-mode:vertical-rl,
+}
